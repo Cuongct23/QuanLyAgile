@@ -176,14 +176,15 @@
                     />
             </LinearLayout>
 
-            <com.google.android.material.button.MaterialButton
-                android:layout_width="270dp"
+            <androidx.appcompat.widget.AppCompatButton
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
                 android:layout_marginTop="40dp"
                 android:layout_marginBottom="20dp"
-                android:backgroundTint="@null"
-                android:background="#28BB8E"
+                android:background="@drawable/button"
                 android:text="Close"
                 android:textColor="@color/white"
                 android:textStyle="bold" />

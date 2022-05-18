@@ -20,9 +20,9 @@
         android:layout_marginBottom="22dp"
         android:textColor="#000000"
         android:textSize="35sp"
+        android:fontFamily="@font/sen_bold"
         android:gravity="center_horizontal|center_vertical"
         android:text="Managing The Warehouse"
-        android:fontFamily="@font/sen_bold"
         app:layout_constraintBottom_toTopOf="@+id/lottie_layer_name"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -39,18 +39,19 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:lottie_autoPlay="true"
-        app:lottie_loop="true" />
+        app:lottie_loop="true"
+        app:lottie_rawRes="@raw/anim_app" />
 
     <TextView
         android:id="@+id/textView2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="91dp"
-        android:fontFamily="@font/sen_regular"
         android:text="Save your time"
         android:textAlignment="center"
         android:textColor="#000000"
         android:textSize="20sp"
+        android:fontFamily="@font/sen_regular"
         android:textStyle="normal"
         app:layout_constraintBottom_toTopOf="@+id/progressBar"
         app:layout_constraintEnd_toEndOf="parent"
@@ -71,7 +72,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:lottie_autoPlay="true"
         app:lottie_loop="true"
-        app:lottie_rawRes="@raw/loading" />
+     />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
