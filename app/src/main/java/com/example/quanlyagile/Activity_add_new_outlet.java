@@ -1,14 +1,14 @@
 package com.example.quanlyagile;
 
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.os.Bundle;
 
-public class ActivityHoaDonNhap extends AppCompatActivity {
+import androidx.appcompat.app.AppCompatActivity;
+
+public class Activity_add_new_outlet extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_hoa_don_nhap);
+        setContentView(R.layout.activity_add_new_outlet);
     }
 }

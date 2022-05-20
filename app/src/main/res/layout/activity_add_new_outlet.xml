@@ -16,11 +16,11 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginLeft="16sp"
-            android:layout_marginTop="30sp"
+            android:layout_marginTop="20dp"
             android:layout_marginRight="16sp"
             android:fontFamily="@font/sen_bold"
             android:gravity="center"
-            android:text="Add new entry "
+            android:text="Add new outlet "
             android:textColor="#000000"
             android:textSize="24sp" />
 
@@ -33,7 +33,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="16dp"
-                android:layout_marginTop="20dp"
+                android:layout_marginTop="30dp"
                 android:layout_marginEnd="16dp"
                 android:orientation="vertical">
 
@@ -45,14 +45,13 @@
                     app:boxStrokeWidth="1.5dp"
                     app:counterMaxLength="20"
                     app:endIconMode="clear_text"
-                    app:hintTextColor="#03A9F4"
-                    app:startIconDrawable="@drawable/ic_box"
-                    app:startIconTint="#28BB8E">
+                    app:hintTextColor="#03A9F4">
 
                     <com.google.android.material.textfield.TextInputEditText
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:background="@drawable/edit_round"
+                        android:drawableStart="@drawable/ic_box"
                         android:hint="Name of product"
                         android:inputType="text"
                         android:textColor="#03A9F4"
@@ -68,14 +67,13 @@
                     app:boxStrokeWidth="1.5dp"
                     app:counterMaxLength="20"
                     app:endIconMode="clear_text"
-                    app:hintTextColor="#03A9F4"
-                    app:startIconDrawable="@drawable/ic_list_number"
-                    app:startIconTint="#28BB8E">
+                    app:hintTextColor="#03A9F4">
 
                     <com.google.android.material.textfield.TextInputEditText
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:background="@drawable/edit_round"
+                        android:drawableStart="@drawable/ic_list_number"
                         android:hint="Product type"
                         android:inputType="text"
                         android:textColor="#03A9F4"
@@ -91,14 +89,13 @@
                     app:boxStrokeWidth="1.5dp"
                     app:counterMaxLength="20"
                     app:endIconMode="clear_text"
-                    app:hintTextColor="#03A9F4"
-                    app:startIconDrawable="@drawable/ic_height"
-                    app:startIconTint="#28BB8E">
+                    app:hintTextColor="#03A9F4">
 
                     <com.google.android.material.textfield.TextInputEditText
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:background="@drawable/edit_round"
+                        android:drawableStart="@drawable/ic_height"
                         android:hint="Quantity"
                         android:inputType="text"
                         android:textColor="#03A9F4"
