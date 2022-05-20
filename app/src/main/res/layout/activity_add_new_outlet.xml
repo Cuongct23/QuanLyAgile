@@ -20,7 +20,7 @@
             android:layout_marginTop="42dp"
             android:fontFamily="@font/sen_bold"
             android:gravity="center"
-            android:text="Add new entry "
+            android:text="Add new outlet "
             android:textColor="#000000"
             android:textSize="24sp" />
 
