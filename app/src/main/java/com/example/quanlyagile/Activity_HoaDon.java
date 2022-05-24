@@ -47,7 +47,6 @@ public class Activity_HoaDon extends AppCompatActivity  {
 //        select = findViewById(R.id.select);
 //        item1.setOnClickListener(this);
 //        item2.setOnClickListener(this);
-//111
 //        def = item2.getTextColors();
         getSupportActionBar().setDisplayOptions(ActionBar.DISPLAY_SHOW_CUSTOM);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);

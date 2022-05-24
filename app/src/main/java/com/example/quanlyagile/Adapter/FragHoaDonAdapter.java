@@ -15,7 +15,6 @@ public class FragHoaDonAdapter extends FragmentStateAdapter {
     public FragHoaDonAdapter(@NonNull FragmentManager fragmentManager, @NonNull Lifecycle lifecycle) {
         super(fragmentManager, lifecycle);
     }
-
     @NonNull
     @Override
     public Fragment createFragment(int position) {
