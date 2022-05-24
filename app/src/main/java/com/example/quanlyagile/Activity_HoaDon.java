@@ -1,6 +1,5 @@
 package com.example.quanlyagile;
 
-import androidx.annotation.NonNull;
 import androidx.appcompat.app.ActionBar;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
@@ -15,13 +14,9 @@ import android.graphics.drawable.Drawable;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuInflater;
-import android.view.MenuItem;
-import android.view.View;
 import android.widget.TextView;
 
 import com.example.quanlyagile.Adapter.FragHoaDonAdapter;
-import com.example.quanlyagile.Fragment.Frag_HDN_Entry;
-import com.example.quanlyagile.Fragment.Frag_HDX_Outlet;
 import com.google.android.material.tabs.TabLayout;
 
 public class Activity_HoaDon extends AppCompatActivity  {
@@ -36,7 +31,7 @@ public class Activity_HoaDon extends AppCompatActivity  {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_hoa_don_nhap);
+        setContentView(R.layout.activity_hoa_don);
         tabLayout =findViewById(R.id.tabLayout_HDN);
         viewPager2 =findViewById(R.id.viewPager_HD);
         toolbar = findViewById(R.id.toolbar_HDN);
